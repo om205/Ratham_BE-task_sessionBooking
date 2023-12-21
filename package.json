@@ -1,0 +1,33 @@
+{
+  "name": "college_scheduler_backend",
+  "version": "1.0.0",
+  "description": "ratham_be_interview_assignment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/om205/college_scheduler_be.git"
+  },
+  "keywords": [
+    "ratham",
+    "node"
+  ],
+  "author": "Om Dubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/om205/college_scheduler_be/issues"
+  },
+  "homepage": "https://github.com/om205/college_scheduler_be#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "uuid": "^9.0.1"
+  }
+}
